@@ -1,0 +1,5 @@
+texto = input('Sua opiniao sobre o filme com duas palavras em ingles: "(muito bom)" ou "(muito ruim)"')
+texto = texto.replace('gudi', 'good')
+texto = texto.replace('bedi', 'bad')
+texto = texto.replace ('veri', 'very')
+print ("texto correto em ingles", texto)
